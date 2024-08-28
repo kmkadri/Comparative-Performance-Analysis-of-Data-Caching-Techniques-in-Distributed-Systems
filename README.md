@@ -18,17 +18,21 @@ This project conducts a comprehensive analysis of performance in big data enviro
 
 ### 1. Impact of Batch Size on Performance
 - **Image Processing**: Larger batch sizes generally improve processing speed, but this comes with increased memory usage, which may not be sustainable for all systems.
-    ![Images Batch Size](path/to/Images_Batch_Size.png)
+  
+  ![Images Batch Size](Images%20Batch%20Size.png)
 
 - **TFRecords Processing**: Similarly, increasing batch sizes improves throughput for TFRecords, highlighting the importance of batch optimization in data pipeline design.
-    ![TFRecords Batch Size](path/to/TFRecords_Batch_Size.png)
+  
+  ![TFRecords Batch Size](TFRecords%20Batch%20Size.png)
 
 ### 2. Cluster Configuration and Network Efficiency
 - **Maximal Cluster Configuration**: When scaled to maximal cluster sizes, network packet handling becomes more efficient, reducing latency and improving overall system performance.
-    ![Maximal Cluster Network Packets](path/to/Maximal_Cluster_Network_Packets_Optimised.png)
+  
+  ![Maximal Cluster Network Packets Optimised](Maximal%20Cluster%20Network%20Packets%20Optimised.png)
 
 - **Medium Cluster Disk Operations**: Disk operations in a medium cluster configuration, when optimized, achieve a balance between speed and resource usage, making it a viable option for mid-sized datasets.
-    ![Medium Cluster Disk Operations](path/to/Meduim_Cluster_Disk_Operations_Optimised.png)
+  
+  ![Medium Cluster Disk Operations Optimised](Meduim%20Cluster%20Disk%20Operations%20Optimised.png)
 
 ## How to Run
 
